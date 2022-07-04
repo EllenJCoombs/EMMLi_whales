@@ -27,6 +27,9 @@ for (i in 1:(length(words)-1)){
 }
 
 #now a list of your module names in order
+#The csv table to define the layout of the graph should look something like this (layout_mammals.csv)
+#Numbers in the grid correspond to bones/modules so you just need to place them somewhere that makes the plot fairly easy to interpret
+
 mod.names<-c("braincase","anterior neurocranium","upper jaw","operculum","lower jaw","supraoccipital","suspensorium") 
 within<-diag(corrmat_new)
 between<-corrmat_new
